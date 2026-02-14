@@ -17,10 +17,21 @@ body{
 
 header{
     background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: xx-large;
     font-weight: 900;
     color: firebrick;
     width: 100%;
+}
+
+header a{
+    color:firebrick;
+    font-size: large;
+    font-weight: 200;
+    text-decoration: none;
+    padding: 20px;
 }
 main{
     flex: 1;
@@ -53,12 +64,18 @@ footer{
 footer span{
     color: firebrick;
     font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
     
 }
 
 .link_no_footer{
     display: flex;
     align-items: center;
+}
+
+.link_no_footer a{
+    text-decoration: none;
+    color: firebrick;
 }
 
 
